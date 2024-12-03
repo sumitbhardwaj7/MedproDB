@@ -143,6 +143,9 @@ animation: slideIn 20s ease-in-out infinite;
 #btn{
     font-size: 25px;
     border-radius: 34px;
+       background-color: red;
+    color: white;
+    margin-left: 22px;
 }
 .imgg{
     height: 400px;
