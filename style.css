@@ -146,11 +146,12 @@ animation: slideIn 20s ease-in-out infinite;
 }
 .imgg{
     height: 400px;
-    margin-left: 400px;
+    margin-left: 450px;
     margin: 34px;
     border-radius: 54px;
     width: 1000px;
     opacity:0.9;
+    margin-left:
 }
 #hh{
     font-size: 30px;
