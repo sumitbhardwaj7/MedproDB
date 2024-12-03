@@ -159,7 +159,7 @@ animation: slideIn 20s ease-in-out infinite;
     margin: 10px;
     font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: darkgray;
+    color: rgb(59, 58, 58);
 }
 
 .non{
