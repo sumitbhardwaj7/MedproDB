@@ -1,0 +1,177 @@
+
+.backg {
+    background-image: url("pierre-bamin-DO0lQFlzGeM-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+.nav0{
+    margin: 16px;
+    padding: 23px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#logo{
+    font-size: 70px;
+    font-weight: 900;
+    text-shadow: 0 0 10px beige, 0 0 20px beige, 0 0 30px rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav1{
+    
+    width: 90%;
+    border-radius:54px ;
+    backdrop-filter: sepia(50%);
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+color: beige;
+display: inline;
+text-decoration: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#ee:hover {
+    color: rgb(255, 255, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.nav1container{
+    display: flex;
+    justify-content: center;
+}
+
+.credits{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 10px;
+    
+
+
+}
+.cri{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@keyframes slideIn {
+    0% {
+        opacity: 1;
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 2;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(100%);
+    }
+}
+
+.credits p {
+animation: slideIn 20s ease-in-out infinite; 
+}
+
+.wel{
+    text-align:center ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size:17px;
+    text-shadow: 0 0 10px beige, 0 0 20px beige, 0 0 30px rgb(255, 255, 255);
+}
+
+.container{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid #ffffff;
+    margin: 10px;
+    height: 1150px;
+    width: 95%;
+    border-radius: 54px;
+
+}
+
+.http{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+#rr{
+    color: red;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ll{
+    
+    margin: 0px;
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+#ww{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#search{
+    font-size: 25px;
+    border-radius: 34px;
+    margin-left: px;
+}
+
+#btn{
+    font-size: 25px;
+    border-radius: 34px;
+}
+.imgg{
+    height: 400px;
+    margin-left: 400px;
+    margin: 34px;
+    border-radius: 54px;
+    width: 1000px;
+    opacity:0.6;
+}
+#hh{
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgray;
+}
+
+.non{
+    display: flex;
+    justify-content: center;
+}
+.slider{
+    animation: slideIn 30s ease-in-out infinite; 
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+
+}
